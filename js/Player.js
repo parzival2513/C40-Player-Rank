@@ -36,7 +36,7 @@ class Player {
 
   static updateCarsAtEnd(rank){
     database.ref('/').update({
-      CarsAtEnd:rank;
+      CarsAtEnd:rank
     });
 
   }
